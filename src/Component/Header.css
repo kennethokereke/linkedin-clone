@@ -1,0 +1,49 @@
+.Header {
+    display: flex;
+    position: sticky;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid rgb(177, 176, 176);
+    padding-top: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 199;
+}
+
+.Header .logo {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__right {
+    display: flex;
+}
+
+.header__search input {
+    outline: none;
+    border: none;
+    background:none;
+
+}
+
+.header__search {
+    padding:10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: gray;
+    background-color: #dadde0;
+}
+
